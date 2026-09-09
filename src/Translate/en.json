@@ -55,7 +55,8 @@
     "switchToArabic": "Switch to Arabic",
     "switchToEnglish": "Switch to English",
     "notifications": "Notifications",
-    "noNotifications": "No new notifications"
+    "noNotifications": "No new notifications",
+     "about": "About Us "
   },
    "footer": {
     "aboutTitle": "About Us",
