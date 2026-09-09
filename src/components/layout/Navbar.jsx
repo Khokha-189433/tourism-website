@@ -122,12 +122,15 @@ export default function Navbar() {
     { title: t('navbar.trips') || 'الرحلات', path: '/trips' },
     { title: t('navbar.packages') || 'الباقات', path: '/packages' },
     { title: t('navbar.blog') || 'المدونة', path: '/blog' },
-    { title: t('navbar.contact') || 'تواصل معنا', path: '/contact' },
+    { title: t('navbar.about') || 'من نحن', path: '/about' },
+    { title: t('navbar.contact') || 'تواصل معنا', path: '/contact' }
+    
   ];
 
   const isProfileActive = location.pathname === '/profile';
   const isMyBookingsActive = location.pathname === '/my-bookings';
   const isFavoritesActive = location.pathname === '/favorites';
+  const isAboutActive = location.pathname === '/about';
   const isNotificationsActive = location.pathname === '/notifications';  // ✅ إضافة
 
   useEffect(() => {

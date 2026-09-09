@@ -18,7 +18,7 @@ import PackageDetails from './pages/Packages/PackageDetails'
 import Favorites from './pages/Favorites/Favorites'
 import Contact from './pages/Contac/Contact'
 import Notifications from './pages/Notifications/Notifications'
-
+import About from './pages/About/About'
 
 function App() {  
   return (
@@ -60,7 +60,13 @@ function App() {
         <Route path="notifications" element={<Notifications />} />
           {/*   اتصل بنا   */}
         <Route path="Contact" element={<Contact />} />
-     
+           {/*  من نحن  */}
+        <Route path="/about" element={<About />} />
+
+
+
+
+
       </Route>
     </Routes>
   );
